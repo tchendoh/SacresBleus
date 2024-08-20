@@ -13,3 +13,6 @@ App pour expliquer les sacres québécois aux nouveaux arrivants.
 - Framework AVFoundation
 - Framework Charts
 - Regex et AttributedString
+
+### Écoute audio
+![]([https://i.imgur.com/mon_animation.gif](https://chummey.com/github/gifs/SacresBleus-exemple-audio-1.gif))
