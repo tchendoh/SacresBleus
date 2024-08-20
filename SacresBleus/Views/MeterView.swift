@@ -1,5 +1,5 @@
 //
-//  ProfanityMeter.swift
+//  MeterView.swift
 //  SacresBleus
 //
 //  Created by Eric Chandonnet on 2024-03-12.

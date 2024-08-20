@@ -8,71 +8,62 @@
 import SwiftUI
 
 struct TranscriptionView: View {
-    var rawTranscription: String
-    @Binding var path: [PathPage]
-
-    let highlightColors: [Color] = [Color.blue.opacity(0.3), Color.red.opacity(0.3), Color.yellow.opacity(0.3), Color.green.opacity(0.3), Color.purple.opacity(0.3)]
-    @State var formattedTranscription: AttributedString = AttributedString()
-    @State var foundExpressions: [AttributedString] = []
-
+    @Environment(DictionaryViewModel.self) private var vm: DictionaryViewModel
+    @Binding var rawTranscription: String
+    @Binding var foundExpressions: [FoundExpression]
+    @State var formattedTranscription = AttributedString()
+    let highlightColors: [Color] = [Color.blue.opacity(0.3),
+                                    Color.red.opacity(0.3),
+                                    Color.yellow.opacity(0.3),
+                                    Color.green.opacity(0.3),
+                                    Color.purple.opacity(0.3)]
+    
     var body: some View {
         VStack {
             Text(formattedTranscription)
-                .font(.title)
+                .font(.system(size: 32))
                 .fontWeight(.medium)
                 .multilineTextAlignment(.center)
-            
-            HStack {
-                VStack (alignment: .leading, spacing: 20) {
-                    ForEach(foundExpressions, id:\.self) { expression in
-                        Text(expression)
-                            .font(.title)
-                            .fontWeight(.medium)
-                            .onTapGesture {
-                                path.append(.expression(String(expression.characters)))
-                            }
-                        
-                    }
-                    
-                }
-                Spacer()
-            }
-            .padding()
+                .rotation3DEffect(.degrees(25), axis: (x: 1, y: 0, z: 0))
         }
-        .onAppear {
-            findExpressions()
+        .onChange(of: rawTranscription, initial: true) { oldValue, newValue in
+            rawTranscription = "T'as encore gagné, mon baptême!"
+            if newValue != "" {
+                findExpressions()
+            }
         }
         
         
         
     }
     func findExpressions() {
-        foundExpressions = []
         var result = AttributedString(rawTranscription)
+        foundExpressions = []
         var highlightColorIndex = 0
-        for expression in expressions {
-            if rawTranscription.containsIgnoringCase(find: expression) {
-                var foundExpression = AttributedString(expression)
+        for (_, expression) in vm.dictionary {
+            if rawTranscription.containsIgnoringCase(find: expression.text) {
+                var attributedString = AttributedString(expression.text)
                 let backgroundColor = highlightColors[highlightColorIndex]
+                attributedString.backgroundColor = backgroundColor
+                
+                if let range = result.range(of: expression.text, options: .caseInsensitive) {
+                    result.replaceSubrange(range, with: attributedString)
+                }
+                foundExpressions.append(FoundExpression(expression: expression, color: backgroundColor, attributedString: attributedString))
+                
                 highlightColorIndex += 1
                 if highlightColorIndex >= highlightColors.count {
                     highlightColorIndex = 0
                 }
-                foundExpression.backgroundColor = backgroundColor
-                
-                if let range = result.range(of: expression, options: .caseInsensitive) {
-                    result.replaceSubrange(range, with: foundExpression)
-                }
-                foundExpressions.append(foundExpression)
-                
             }
             
         }
         formattedTranscription = result
     }
-
+    
 }
 
 #Preview {
-    ContentView()
+    HomeScreen()
+        .environment(DictionaryViewModel())
 }

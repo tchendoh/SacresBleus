@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import Observation
 
 @main
 struct SacresBleusApp: App {
+    @State var vm = DictionaryViewModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeScreen()
+                .environment(vm)
         }
     }
 }

@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		573420E32BA332C700830A51 /* TextWithLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573420E22BA332C700830A51 /* TextWithLinks.swift */; };
+		5765B0DD2BA0A0D000CA01B5 /* MeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5765B0DC2BA0A0CF00CA01B5 /* MeterView.swift */; };
+		5765B0DF2BA1EFBE00CA01B5 /* SpeechSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5765B0DE2BA1EFBE00CA01B5 /* SpeechSynthesizer.swift */; };
+		5776589A2B9CAF2500533B20 /* RecordButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577658992B9CAF2500533B20 /* RecordButtonView.swift */; };
+		5776589C2B9CB9CB00533B20 /* FoundExpressionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5776589B2B9CB9CB00533B20 /* FoundExpressionView.swift */; };
+		5776B23E2BC98C7C000F66CF /* EuphemismListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5776B23D2BC98C7C000F66CF /* EuphemismListView.swift */; };
+		5793BB2D2BA47D0B006D7441 /* FontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5793BB2C2BA47D0B006D7441 /* FontView.swift */; };
 		57BFF8232B99154100B61367 /* SacresBleusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BFF8222B99154100B61367 /* SacresBleusApp.swift */; };
-		57BFF8252B99154100B61367 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BFF8242B99154100B61367 /* ContentView.swift */; };
 		57BFF8272B99154600B61367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57BFF8262B99154600B61367 /* Assets.xcassets */; };
 		57BFF82A2B99154600B61367 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57BFF8292B99154600B61367 /* Preview Assets.xcassets */; };
 		57BFF8342B99154700B61367 /* SacresBleusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BFF8332B99154700B61367 /* SacresBleusTests.swift */; };
 		57BFF83E2B99154700B61367 /* SacresBleusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BFF83D2B99154700B61367 /* SacresBleusUITests.swift */; };
 		57BFF8402B99154700B61367 /* SacresBleusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BFF83F2B99154700B61367 /* SacresBleusUITestsLaunchTests.swift */; };
+		57BFF84E2B99158600B61367 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BFF84D2B99158600B61367 /* Expression.swift */; };
+		57BFF8572B9915FF00B61367 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BFF8502B9915FD00B61367 /* Extension+String.swift */; };
+		57BFF8582B9915FF00B61367 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BFF8522B9915FE00B61367 /* ResultView.swift */; };
+		57BFF85A2B9915FF00B61367 /* TranscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BFF8542B9915FE00B61367 /* TranscriptionView.swift */; };
+		57BFF85B2B9915FF00B61367 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BFF8552B9915FE00B61367 /* SpeechRecognizer.swift */; };
+		57C9D0492B99198500F3983A /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C9D0482B99198500F3983A /* HomeScreen.swift */; };
+		57CDBE3B2B99FDF400438368 /* DictionaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDBE3A2B99FDF400438368 /* DictionaryViewModel.swift */; };
+		57CE778C2B9CC1B6003E84C7 /* WrappingStack in Frameworks */ = {isa = PBXBuildFile; productRef = 57CE778B2B9CC1B6003E84C7 /* WrappingStack */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		573420E22BA332C700830A51 /* TextWithLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWithLinks.swift; sourceTree = "<group>"; };
+		5765B0DC2BA0A0CF00CA01B5 /* MeterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeterView.swift; sourceTree = "<group>"; };
+		5765B0DE2BA1EFBE00CA01B5 /* SpeechSynthesizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechSynthesizer.swift; sourceTree = "<group>"; };
+		577658992B9CAF2500533B20 /* RecordButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordButtonView.swift; sourceTree = "<group>"; };
+		5776589B2B9CB9CB00533B20 /* FoundExpressionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundExpressionView.swift; sourceTree = "<group>"; };
+		5776B23D2BC98C7C000F66CF /* EuphemismListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuphemismListView.swift; sourceTree = "<group>"; };
+		5793BB2B2BA47971006D7441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5793BB2C2BA47D0B006D7441 /* FontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontView.swift; sourceTree = "<group>"; };
 		57BFF81F2B99154100B61367 /* SacresBleus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SacresBleus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BFF8222B99154100B61367 /* SacresBleusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SacresBleusApp.swift; sourceTree = "<group>"; };
-		57BFF8242B99154100B61367 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		57BFF8262B99154600B61367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57BFF8292B99154600B61367 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		57BFF82F2B99154700B61367 /* SacresBleusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SacresBleusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +65,13 @@
 		57BFF8392B99154700B61367 /* SacresBleusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SacresBleusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BFF83D2B99154700B61367 /* SacresBleusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SacresBleusUITests.swift; sourceTree = "<group>"; };
 		57BFF83F2B99154700B61367 /* SacresBleusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SacresBleusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		57BFF84D2B99158600B61367 /* Expression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
+		57BFF8502B9915FD00B61367 /* Extension+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
+		57BFF8522B9915FE00B61367 /* ResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		57BFF8542B9915FE00B61367 /* TranscriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranscriptionView.swift; sourceTree = "<group>"; };
+		57BFF8552B9915FE00B61367 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		57C9D0482B99198500F3983A /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		57CDBE3A2B99FDF400438368 /* DictionaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57CE778C2B9CC1B6003E84C7 /* WrappingStack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +100,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		579FC5662B9F877B00CA4A0D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				57BFF8552B9915FE00B61367 /* SpeechRecognizer.swift */,
+				5765B0DE2BA1EFBE00CA01B5 /* SpeechSynthesizer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		57BFF8162B99154100B61367 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +132,14 @@
 		57BFF8212B99154100B61367 /* SacresBleus */ = {
 			isa = PBXGroup;
 			children = (
+				5793BB2B2BA47971006D7441 /* Info.plist */,
 				57BFF8222B99154100B61367 /* SacresBleusApp.swift */,
-				57BFF8242B99154100B61367 /* ContentView.swift */,
+				57BFF84C2B99157400B61367 /* Models */,
+				57CDBE392B99FDCA00438368 /* ViewModels */,
+				57BFF85C2B9916A900B61367 /* Views */,
+				57C9D0472B99196400F3983A /* Screens */,
+				579FC5662B9F877B00CA4A0D /* Services */,
+				57BFF8512B9915FD00B61367 /* Extensions */,
 				57BFF8262B99154600B61367 /* Assets.xcassets */,
 				57BFF8282B99154600B61367 /* Preview Content */,
 			);
@@ -127,6 +171,53 @@
 			path = SacresBleusUITests;
 			sourceTree = "<group>";
 		};
+		57BFF84C2B99157400B61367 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				57BFF84D2B99158600B61367 /* Expression.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		57BFF8512B9915FD00B61367 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				57BFF8502B9915FD00B61367 /* Extension+String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		57BFF85C2B9916A900B61367 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57BFF8522B9915FE00B61367 /* ResultView.swift */,
+				57BFF8542B9915FE00B61367 /* TranscriptionView.swift */,
+				5776589B2B9CB9CB00533B20 /* FoundExpressionView.swift */,
+				577658992B9CAF2500533B20 /* RecordButtonView.swift */,
+				5765B0DC2BA0A0CF00CA01B5 /* MeterView.swift */,
+				573420E22BA332C700830A51 /* TextWithLinks.swift */,
+				5793BB2C2BA47D0B006D7441 /* FontView.swift */,
+				5776B23D2BC98C7C000F66CF /* EuphemismListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		57C9D0472B99196400F3983A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				57C9D0482B99198500F3983A /* HomeScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		57CDBE392B99FDCA00438368 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				57CDBE3A2B99FDF400438368 /* DictionaryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +234,9 @@
 			dependencies = (
 			);
 			name = SacresBleus;
+			packageProductDependencies = (
+				57CE778B2B9CC1B6003E84C7 /* WrappingStack */,
+			);
 			productName = SacresBleus;
 			productReference = 57BFF81F2B99154100B61367 /* SacresBleus.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +309,9 @@
 				Base,
 			);
 			mainGroup = 57BFF8162B99154100B61367;
+			packageReferences = (
+				5776589D2B9CC05200533B20 /* XCRemoteSwiftPackageReference "swiftui-wrapping-stack" */,
+			);
 			productRefGroup = 57BFF8202B99154100B61367 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +354,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57BFF8252B99154100B61367 /* ContentView.swift in Sources */,
+				57BFF8572B9915FF00B61367 /* Extension+String.swift in Sources */,
 				57BFF8232B99154100B61367 /* SacresBleusApp.swift in Sources */,
+				5776B23E2BC98C7C000F66CF /* EuphemismListView.swift in Sources */,
+				5765B0DF2BA1EFBE00CA01B5 /* SpeechSynthesizer.swift in Sources */,
+				57BFF85B2B9915FF00B61367 /* SpeechRecognizer.swift in Sources */,
+				5776589A2B9CAF2500533B20 /* RecordButtonView.swift in Sources */,
+				5793BB2D2BA47D0B006D7441 /* FontView.swift in Sources */,
+				57C9D0492B99198500F3983A /* HomeScreen.swift in Sources */,
+				5776589C2B9CB9CB00533B20 /* FoundExpressionView.swift in Sources */,
+				57BFF85A2B9915FF00B61367 /* TranscriptionView.swift in Sources */,
+				57BFF84E2B99158600B61367 /* Expression.swift in Sources */,
+				5765B0DD2BA0A0D000CA01B5 /* MeterView.swift in Sources */,
+				573420E32BA332C700830A51 /* TextWithLinks.swift in Sources */,
+				57CDBE3B2B99FDF400438368 /* DictionaryViewModel.swift in Sources */,
+				57BFF8582B9915FF00B61367 /* ResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +457,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +514,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -425,11 +535,17 @@
 				DEVELOPMENT_TEAM = T8DKX94TR7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SacresBleus/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sacres Bleus";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App needs microphone to hear words to search. ";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "App recognizes audio to search words in dictionary.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +570,17 @@
 				DEVELOPMENT_TEAM = T8DKX94TR7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SacresBleus/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sacres Bleus";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App needs microphone to hear words to search. ";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "App recognizes audio to search words in dictionary.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -588,6 +710,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5776589D2B9CC05200533B20 /* XCRemoteSwiftPackageReference "swiftui-wrapping-stack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/diniska/swiftui-wrapping-stack";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		57CE778B2B9CC1B6003E84C7 /* WrappingStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5776589D2B9CC05200533B20 /* XCRemoteSwiftPackageReference "swiftui-wrapping-stack" */;
+			productName = WrappingStack;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 57BFF8172B99154100B61367 /* Project object */;
 }
