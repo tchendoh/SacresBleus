@@ -22,3 +22,6 @@ App pour expliquer les sacres québécois aux nouveaux arrivants.
 
 ### Mots doubles
 ![Gif pour doublons](https://github.com/tchendoh/tchendoh.github.io/blob/main/gifs/SacresBleus-mots-doubles.gif)
+
+### Icône
+![Icône pour DatingQ](https://github.com/tchendoh/tchendoh.github.io/blob/main/images/SacresBleus-icon.png)
