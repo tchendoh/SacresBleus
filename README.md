@@ -18,7 +18,7 @@ App pour expliquer les sacres québécois aux nouveaux arrivants.
 ![Démonstration de l'application](https://chummey.com/github/gifs/SacresBleus-exemple-audio.gif)
 
 ### Dictionnaire et exemples
-![Démonstration de l'application](https://chummey.com/github/gifs/SacresBleus-mots-dictionnaire.gif)
+![Démonstration de l'application](https://chummey.com/github/gifs/SacresBleus-dictionnaire.gif)
 
 ### Mots doubles
 ![Démonstration de l'application](https://chummey.com/github/gifs/SacresBleus-mots-doubles.gif)
