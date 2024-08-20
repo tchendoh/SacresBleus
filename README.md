@@ -15,10 +15,10 @@ App pour expliquer les sacres québécois aux nouveaux arrivants.
 - Regex et AttributedString
 
 ### Écoute audio
-![Gif pour écoute audio](https://chummey.com/github/gifs/SacresBleus-exemple-audio.gif)
+![Gif pour écoute audio](https://github.com/tchendoh/tchendoh.github.io/blob/main/gifs/SacresBleus-exemple-audio.gif)
 
 ### Dictionnaire et exemples
-![Gif pour dictionnaire](https://chummey.com/github/gifs/SacresBleus-dictionnaire.gif)
+![Gif pour dictionnaire](https://github.com/tchendoh/tchendoh.github.io/blob/main/gifs/SacresBleus-dictionnaire.gif)
 
 ### Mots doubles
-![Gif pour doublons](https://chummey.com/github/gifs/SacresBleus-mots-doubles.gif)
+![Gif pour doublons](https://github.com/tchendoh/tchendoh.github.io/blob/main/gifs/SacresBleus-mots-doubles.gif)
